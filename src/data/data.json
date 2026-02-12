@@ -1,0 +1,855 @@
+{
+  "sites": [
+  {
+    "name": "TradingView",
+    "url": "https://www.tradingview.com",
+    "description": "Advanced charting platform for technical analysis of financial and crypto markets.",
+    "mainCategory": ["CRYPTO", "FOREX", "INDICES"],
+    "subCategory": ["TECHNICAL", "ANALYTICS"],
+    "imageUrl": "https://financefeeds.com/wp-content/uploads/2022/11/TradingView.png",
+    "tags": ["charting", "trading", "analysis", "technical", "indicators", "web platform"]
+  },
+  {
+    "name": "Coin MarketCap",
+    "url": "https://coinmarketcap.com",
+    "description": "Global crypto asset price, volume and market capitalization tracker.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "FUNDAMENTAL"],
+    "imageUrl": "https://academy-public.coinmarketcap.com/optimized-uploads/26299f058ebd40799da383024076631f.png",
+    "tags": ["market cap", "crypto prices", "data", "rankings", "volume", "listings"]
+  },
+  {
+    "name": "Coinglass",
+    "url": "https://www.coinglass.com",
+    "description": "On-chain and crypto derivatives data including open interest and liquidations.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "FUNDAMENTAL"],
+    "imageUrl": "https://cdn.coinglasscdn.com/static/icon_600_315.png",
+    "tags": ["derivatives", "liquidation", "futures", "options", "OI", "funding rates"]
+  },
+  {
+    "name": "OrionTerminal",
+    "url": "https://orionterminal.com",
+    "description": "Real-time dashboard to monitor wallet and token activity on the blockchain.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "ONCHAIN"],
+    "imageUrl": "https://pbs.twimg.com/profile_images/2014298425508904960/5Vk-YK6v_400x400.png",
+    "tags": ["wallet tracker", "real-time", "blockchain", "transactions", "alpha", "monitoring"]
+  },
+  {
+    "name": "HyperTracker",
+    "url": "https://hypertracker.io",
+    "description": "Transaction and activity tracker for the Hyperliquid network.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "ONCHAIN"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQuB2D6PDsWQ626rG0sK-NZTbShI98DMjmXw&s",
+    "tags": ["hyperliquid", "transaction", "tracker", "on-chain", "L1", "activity"]
+  },
+  {
+    "name": "HyperDash",
+    "url": "https://hyperdash.xyz",
+    "description": "Analytical dashboard for Hyperliquid perpetual futures ecosystem.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "TECHNICAL"],
+    "imageUrl": "https://cryptocurrencyjobs.co/startups/assets/logos/hyperdash.573ab3202bfa665f08258e349b81e94fe8d25ac00141db091af6d5bbcaca56fd.jpeg",
+    "tags": ["hyperliquid", "perpetual", "dashboard", "futures", "trading", "analytics"]
+  },
+  {
+    "name": "Token Terminal",
+    "url": "https://tokenterminal.com",
+    "description": "Fundamental analysis of DeFi protocols and on-chain financial metrics.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TECHNICAL", "ANALYTICS"],
+    "imageUrl": "https://cdn.sanity.io/images/cy870nyb/production/52ef159976dbe758db6249597b6b00dd27b2201c-1920x1080.png",
+    "tags": ["defi", "fundamentals", "revenue", "TVL", "protocols", "valuation"]
+  },
+  {
+    "name": "Coinank",
+    "url": "https://coinank.com",
+    "description": "New token research and tracking tools across multiple blockchains.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "FUNDAMENTAL"],
+    "imageUrl": "https://linktr.ee/og/image/coinank.jpg",
+    "tags": ["new tokens", "research", "alpha", "launches", "discovery", "multi-chain"]
+  },
+  {
+    "name": "Bitcoin Magazine Pro",
+    "url": "https://bitcoinmagazinepro.com",
+    "description": "Exclusive news, analysis, and deep insights on Bitcoin developments.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS"],
+    "imageUrl": "https://storage.googleapis.com/lookintobitcoin/static/img/logo/x-preview.c59ce86d6316.png",
+    "tags": ["bitcoin", "news", "analysis", "BTC", "research", "insights"]
+  },
+  {
+    "name": "Crypto Bubble",
+    "url": "https://cryptobubble.net",
+    "description": "Latest cryptocurrency news, trends, and market updates in real-time.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS"],
+    "imageUrl": "https://play-lh.googleusercontent.com/6G1CKBW37MsMVEnKYGd_WgFzYGRGH0qpRi9gjGI3Oxa2-jfHIQGULm2gul47nKQBWg=w526-h296-rw",
+    "tags": ["news", "trends", "updates", "market", "crypto", "alerts"]
+  },
+  {
+    "name": "Arkham",
+    "url": "https://arkhamintelligence.com",
+    "description": "Blockchain intelligence platform to track addresses and entities on crypto networks.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "ONCHAIN"],
+    "imageUrl": "https://intel.arkm.com/arkham-og-image.png",
+    "tags": ["on-chain", "intelligence", "tracking", "entities", "whales", "analytics"]
+  },
+  {
+    "name": "Blockchain Center",
+    "url": "https://blockchaincenter.net",
+    "description": "Sentiment index and market timing tools for crypto asset trading decisions.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TECHNICAL", "ANALYTICS"],
+    "imageUrl": "https://investorsking.com/wp-content/uploads/2021/06/Blockchain.png",
+    "tags": ["sentiment", "timing", "indicators", "fear greed", "buy sell", "market cycles"]
+  },
+  {
+    "name": "Armetis",
+    "url": "https://armetis.com",
+    "description": "Analytics platform to monitor and evaluate cryptocurrency projects and tokens.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "FUNDAMENTAL"],
+    "imageUrl": "https://cdn.prod.website-files.com/6760e87b474d412dfa9a7a98/68af32630f90428c3762efe5_GzUFjkVaIAAyNo_.jpeg",
+    "tags": ["analytics", "evaluation", "projects", "tokens", "research", "metrics"]
+  },
+  {
+    "name": "Crypto Quant",
+    "url": "https://cryptoquant.com",
+    "description": "On-chain data and institutional flow indicators for cryptocurrency markets.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["FUNDAMENTAL", "ANALYTICS"],
+    "imageUrl": "https://public.bnbstatic.com/static/content/square/images/f689798f17cc48cb9c1308baaf45faf8.png",
+    "tags": ["on-chain", "institutions", "flow", "exchange", "reserves", "whales"]
+  },
+  {
+    "name": "Etherscan",
+    "url": "https://etherscan.io",
+    "description": "Ethereum blockchain explorer for transactions, contracts, and wallet addresses.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TOOLS", "ONCHAIN"],
+    "imageUrl": "https://us1.discourse-cdn.com/flex022/uploads/zeppelin/original/3X/9/7/978f1c1398eff25a9bb927632887ea450a50700f.jpeg",
+    "tags": ["ethereum", "explorer", "blockchain", "transactions", "contracts", "wallets"]
+  },
+  {
+    "name": "Solscan",
+    "url": "https://solscan.io",
+    "description": "Solana blockchain explorer for transactions, tokens, and account activity.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TOOLS", "ONCHAIN"],
+    "imageUrl": "https://alpha.ajaib.co.id/wp-content/uploads/2023/07/Solscan.webp",
+    "tags": ["solana", "explorer", "blockchain", "SOL", "transactions", "tokens"]
+  },
+  {
+    "name": "HypurScan",
+    "url": "https://hypurscan.com",
+    "description": "Specialized blockchain explorer for Hyperliquid and Hypersync networks.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TOOLS", "ONCHAIN"],
+    "imageUrl": "https://pbs.twimg.com/media/GkDFJrSaAAMMxSG.jpg",
+    "tags": ["hyperliquid", "explorer", "hypersync", "L1", "transactions", "blockchain"]
+  },
+  {
+    "name": "DeFiLlama",
+    "url": "https://defillama.com",
+    "description": "TVL aggregator and DeFi metrics dashboard across multiple blockchains.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "FUNDAMENTAL"],
+    "imageUrl": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/34af948cacc353608fb1a77a5483550d8a57ddaa.png",
+    "tags": ["defi", "tvl", "metrics", "protocols", "chains", "yield"]
+  },
+  {
+    "name": "Messari",
+    "url": "https://messari.io",
+    "description": "In-depth research, data, and reports on crypto assets and protocols.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["FUNDAMENTAL"],
+    "imageUrl": "https://coinswitch.co/switch/wp-content/uploads/2022/12/Messari-1024x619.jpg",
+    "tags": ["research", "reports", "crypto", "analysis", "fundamentals", "institutional"]
+  },
+  {
+    "name": "Tokenomist",
+    "url": "https://tokenomist.ai",
+    "description": "AI-powered analysis for new tokens with scam and pump detection.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["ANALYTICS", "TECHNICAL"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZTok8jH7zGbOcDulsPIyI5ilHLxurucXAA&s",
+    "tags": ["ai", "scam detection", "token analysis", "rugpull", "risk", "new tokens"]
+  },
+  {
+    "name": "DexScreener",
+    "url": "https://dexscreener.com",
+    "description": "Real-time DEX pair monitoring across multiple blockchain networks.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["TECHNICAL", "ANALYTICS"],
+    "imageUrl": "https://assets.staticimg.com/reaper-image/67f38a63388de700016fe816_What%20is%20DEX%20SCreener%20and%20how%20to%20use%20it-16-9.jpg?d=800x450&format=webp",
+    "tags": ["dex", "pairs", "real-time", "charts", "liquidity", "multi-chain"]
+  },
+  {
+    "name": "BullX",
+    "url": "https://bullx.io",
+    "description": "Tracking and alert platform for trending tokens on decentralized exchanges.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://www.cryptowinrate.com/wp-content/uploads/2025/02/bullx.io-review.jpg",
+    "tags": ["trending", "alerts", "dex", "alpha", "tokens", "notifications"]
+  },
+  {
+    "name": "Pump.fun",
+    "url": "https://pump.fun",
+    "description": "Token creation and trading platform for meme coins on Solana.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://icobench.com/wp-content/uploads/2025/07/Pump-token.png",
+    "tags": ["meme coins", "solana", "launch", "bonding curve", "fun", "community"]
+  },
+  {
+    "name": "MEVX",
+    "url": "https://mevx.io",
+    "description": "MEV tracker and trading bot analytics for real-time crypto markets.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeIXoPqUNK1e8zq0UuBHwRxHeROhrq2Dd57DFI4zKYqF-fpaoWo-JaoCQKNbOGS4HnwsNx_Dwnh3IpssAPn2ppR7gB-DdMR_F-JVL2x6r7Itgn8a1mMGFCpTqG4y8thITwpuEYSgw?key=BkT33W5zFqKrSmnjeRCqgviC",
+    "tags": ["mev", "bots", "arbitrage", "sandwich", "searchers", "gas"]
+  },
+  {
+    "name": "Photon",
+    "url": "https://photon.so",
+    "description": "Ultra-fast trading interface for Solana tokens with minimal latency.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://admin.coinbay.io//storage/data/upload/2024/0618/gold-3d-and-modern-cryptocurrency-introduction-101-youtube-thumbnail-52-H8gLf2pX.webp",
+    "tags": ["solana", "trading", "speed", "sniping", "low latency", "DEX"]
+  },
+  {
+    "name": "GMGN",
+    "url": "https://gmgn.ai",
+    "description": "Wallet and token analytics focused on alpha traders and NFT activity.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIbuYIYRnzvINS66ncmhtx6jbvP4SNsHBMA&s",
+    "tags": ["wallet", "alpha", "nft", "traders", "copy trading", "on-chain"]
+  },
+  {
+    "name": "Axion",
+    "url": "https://axion.network",
+    "description": "DeFi protocol focused on sustainable staking and revenue distribution.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQOt-icDXniy-RlGX_Vgguj-YBZkg1sPXnAg&s",
+    "tags": ["defi", "staking", "yield", "revenue", "sustainable", "tokens"]
+  },
+  {
+    "name": "Bubblemaps",
+    "url": "https://app.bubblemaps.io",
+    "description": "Visual token holder distribution maps to detect whale concentration and risks.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["ANALYTICS", "ONCHAIN", "TOOLS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_Rg3e5WulXS618k6eUGkwLaZeTqLy6kwUb33DeZhy7nZy7BwpMubx9PHwaagzoQhp3GBskq4w7RpblMKu7Mc&s&ec=121528423",
+    "tags": ["whales", "distribution", "visualization", "tokenomics", "risk", "holders"]
+  },
+  {
+    "name": "Coingecko",
+    "url": "https://www.coingecko.com",
+    "description": "Comprehensive cryptocurrency data platform with prices, charts, and market insights.",
+    "mainCategory": ["CRYPTO"],
+    "subCategory": ["FUNDAMENTAL", "TOOLS"],
+    "imageUrl": "https://blog.pintu.co.id/wp-content/uploads/2023/08/coingecko.jpg",
+    "tags": ["prices", "market data", "charts", "tokens", "exchanges", "trending"]
+  },
+  {
+    "name": "Phantom Terminal",
+    "url": "https://trade.phantom.com/",
+    "description": "Professional Web3 trading terminal for spot tokens and perpetual futures with real-time charts, portfolio sync, and Hyperliquid integration.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["TECHNICAL", "TOOLS"],
+    "imageUrl": "https://phantom.com/_web_platform_assets/images/og-image.jpg",
+    "tags": ["phantom", "solana", "perpetuals", "hyperliquid", "memecoins", "wallet sync", "charts", "web3 trading"]
+  },
+  {
+    "name": "Insilico Terminal",
+    "url": "https://insilicoterminal.com/",
+    "description": "Multi-exchange crypto trading terminal with unified order management, command-line execution, and customizable interfaces for pro traders.",
+    "mainCategory": ["CRYPTO", "TOOLS"],
+    "subCategory": ["TECHNICAL", "TOOLS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3eNK6cvoiKnq4MXXZQt2Y7sEuXiluGIO9Gw&s",
+    "tags": ["multi-exchange", "binance", "bybit", "execution", "command line", "position management", "professional", "order routing"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "ForexFactory",
+    "url": "https://www.forexfactory.com/",
+    "description": "Economic calendar, real-time news, and active forex trader community forum.",
+    "mainCategory": ["FOREX"],
+    "subCategory": ["NEWS"],
+    "imageUrl": "https://storage.googleapis.com/finansialku_media/wordpress_media/2020/02/dc6191b1-pelajari-lebih-lanjut-tentang-forex-factory-calendar-01-finansialku.jpg",
+    "tags": ["calendar", "news", "forum", "economic events", "trading community", "forex"]
+  },
+  {
+    "name": "Investing.com",
+    "url": "https://www.investing.com/",
+    "description": "Global market data, economic calendar, and multi-asset analysis platform.",
+    "mainCategory": ["FOREX"],
+    "subCategory": ["NEWS", "ANALYTICS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cVyGs8QTf47n9cWF3ylhWRvxkpqQVqwYGw&s",
+    "tags": ["market data", "calendar", "analysis", "stocks", "forex", "commodities", "real-time"]
+  },
+  {
+    "name": "Finviz",
+    "url": "https://finviz.com/",
+    "description": "Advanced market screener and data visualization for stocks, forex, and indices.",
+    "mainCategory": ["FOREX", "INDICES"],
+    "subCategory": ["ANALYTICS", "TOOLS"],
+    "imageUrl": "https://www.bestfxbrokers.com/wp-content/uploads/2024/05/finviz-logo.jpg",
+    "tags": ["screener", "heatmap", "market", "stocks", "charts", "technical analysis", "visualizations"]
+  },
+  {
+    "name": "Barchart",
+    "url": "https://www.barchart.com/",
+    "description": "Technical data and futures analytics for forex, indices, and commodities.",
+    "mainCategory": ["FOREX", "INDICES"],
+    "subCategory": ["TECHNICAL", "FUTURES"],
+    "imageUrl": "https://seoiq.in/wp-content/uploads/2026/01/Barchart.com-logo.png",
+    "tags": ["futures", "technical", "data", "charts", "options", "commodities", "market data"]
+  },
+  {
+    "name": "Trading Economics",
+    "url": "https://tradingeconomics.com/",
+    "description": "Global macroeconomic database with country indicators and economic metrics.",
+    "mainCategory": ["ECONOMY"],
+    "subCategory": ["ECONOMIC", "DATA"],
+    "imageUrl": "https://lh3.googleusercontent.com/l2SYNHm3MztdXxETcuoetqovRyzv5qd_Ws1WoK12lpR0tYW5qx7IvkjKS6FB8gKR6gRFOGO57SZcXQTLjbnxT3alEHAkBGVbXqU=h200",
+    "tags": ["macro", "data", "economy", "indicators", "countries", "forecasts", "statistics"]
+  },
+  {
+    "name": "CFTC COT Report",
+    "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+    "description": "Commitment of Traders report for institutional position analysis and sentiment.",
+    "mainCategory": ["FOREX"],
+    "subCategory": ["FUNDAMENTAL", "DATA"],
+    "imageUrl": "https://carbonherald.com/wp-content/uploads/2024/09/CFTC-800x500.png",
+    "tags": ["cot", "institutional", "positions", "sentiment", "futures", "commercials", "speculators"]
+  },
+  {
+    "name": "CME FedWatch",
+    "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+    "description": "FED interest rate probability tool based on 30-Day Fed Funds futures pricing.",
+    "mainCategory": ["INDICES", "ECONOMY"],
+    "subCategory": ["FUNDAMENTAL"],
+    "imageUrl": "https://pbs.twimg.com/media/CO98mqzWEAARncH.jpg",
+    "tags": ["fed", "rates", "macro", "interest rates", "probability", "monetary policy", "CME"]
+  },
+  {
+    "name": "CME Group",
+    "url": "https://www.cmegroup.com/",
+    "description": "World's leading derivatives marketplace for futures and options trading.",
+    "mainCategory": ["INDICES"],
+    "subCategory": ["FUTURES", "OPTIONS"],
+    "imageUrl": "https://specials-images.forbesimg.com/imageserve/642613fc3b198f822a8ad239/400x0.jpg?cropX1=0&cropX2=400&cropY1=0&cropY2=400",
+    "tags": ["futures", "options", "derivatives", "exchange", "CME", "trading", "commodities"]
+  },
+  {
+    "name": "Seeking Alpha",
+    "url": "https://seekingalpha.com/",
+    "description": "Crowdsourced market analysis and investor opinions on stocks and economics.",
+    "mainCategory": ["INDICES"],
+    "subCategory": ["ANALYTICS"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uqDly2fFUG4G2OCyWvD6mX30Z6G-7BppAw&s",
+    "tags": ["stocks", "analysis", "insights", "crowdsourced", "dividends", "earnings", "market news"]
+  },
+  {
+    "name": "FRED",
+    "url": "https://fred.stlouisfed.org/",
+    "description": "Federal Reserve Economic Data - comprehensive macroeconomic database and charts.",
+    "mainCategory": ["ECONOMY"],
+    "subCategory": ["DATA"],
+    "imageUrl": "https://cdn.aptoide.com/imgs/9/a/5/9a5404bd5c9806e2064f53127511203d_fgraphic.png",
+    "tags": ["macro", "economic", "database", "FRED", "Federal Reserve", "charts", "time series"]
+  },
+  {
+    "name": "BEA",
+    "url": "https://www.bea.gov/",
+    "description": "U.S. Bureau of Economic Analysis - GDP, national income, and economic data.",
+    "mainCategory": ["ECONOMY"],
+    "subCategory": ["DATA"],
+    "imageUrl": "https://www.pbrpc.org/media/userfiles/subsite_226/images/logos/bureau-economic-analysis.jpg",
+    "tags": ["gdp", "income", "economy", "BEA", "national accounts", "economic indicators", "US data"]
+  },
+  {
+    "name": "BLS",
+    "url": "https://www.bls.gov/",
+    "description": "U.S. Bureau of Labor Statistics - employment, inflation, and labor market data.",
+    "mainCategory": ["ECONOMY"],
+    "subCategory": ["DATA", "INFLATION"],
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbWzbsTrRSYjNtC-nlXtyIQGsWHtJnNihQg&s",
+    "tags": ["cpi", "jobs", "inflation", "BLS", "unemployment", "labor", "PPI", "economic data"]
+  },
+  {
+    "name": "Atlanta Fed GDPNow",
+    "url": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+    "description": "Real-time GDP growth estimate model for the U.S. economy updated frequently.",
+    "mainCategory": ["ECONOMY"],
+    "subCategory": ["DATA"],
+    "imageUrl": "https://nationalskillscoalition.org/wp-content/uploads/2023/05/Featured-images.png",
+    "tags": ["gdp", "forecast", "macro", "Atlanta Fed", "real-time", "economic growth", "nowcasting"]
+  },
+
+
+
+
+
+
+
+  {
+    "name": "ICT What Every Traders still wants to know",
+    "url": "https://drive.google.com/uc?export=download&id=1r_VmbTZM5JQReDeIVL815X8EcvXlyYsd",
+    "description": "Core ICT concepts compilation covering market structure, liquidity, and institutional order flow principles for multi-asset trading.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["ICT", "smart money", "liquidity", "order blocks", "market maker", "institutional"]
+  },
+  {
+    "name": "2023 Mentorship",
+    "url": "https://drive.google.com/uc?export=download&id=1yxfE3ki48XAivTkMjZxcoXgo5LtqOPll",
+    "description": "Complete 2023 ICT mentorship curriculum with session notes on FVG, order blocks, and market structure shifts across timeframes.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["mentorship", "ICT", "FVG", "timeframes", "session notes", "trading plan"]
+  },
+  {
+    "name": "Advanced Market Structure",
+    "url": "https://drive.google.com/uc?export=download&id=1gi6_H5ni0lehl7nptjpoJDiZOeXW4tAG",
+    "description": "Advanced BOS/CHoCH identification, breaker blocks, and structural shifts for precise entry timing in trending markets.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://yt3.googleusercontent.com/H030cdAW_9Dl7pKkobl8hulWQoxiqPwBSQoJjfJcKrWvx1kuxur6P5reIA7Q0dowoHghGSNKOg=s900-c-k-c0x00ffffff-no-rj",
+    "tags": ["market structure", "BOS", "CHoCH", "breaker block", "trend", "reversal"]
+  },
+  {
+    "name": "Advanced Structure",
+    "url": "https://drive.google.com/uc?export=download&id=1rUxnwfqZMFDI6igMfOLnILlTiiI9M8yv",
+    "description": "Deep dive into structural liquidity grabs, mitigation blocks, and premium/discount zone reactions for high-probability setups.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://whop.com/blog/content/images/2025/03/phantom-trading.png",
+    "tags": ["structure", "liquidity grab", "mitigation", "premium discount", "setup", "reaction"]
+  },
+  {
+    "name": "AM Content X",
+    "url": "https://drive.google.com/uc?export=download&id=1IgPOR6oJE5PgNwZH-1gSX5hCNdVdxRJO",
+    "description": "Advanced market concepts compilation focusing on liquidity voids, FVG fills, and institutional footprint analysis.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["advanced", "liquidity void", "FVG", "institutional", "footprint", "analysis"]
+  },
+  {
+    "name": "AM Framework",
+    "url": "https://drive.google.com/uc?export=download&id=1z6UWMdham2XW7WDk1mJ8vi-e-tFqxtUM",
+    "description": "Systematic trading framework combining market structure, liquidity concepts, and time-based execution models.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["framework", "systematic", "execution", "time", "structure", "liquidity"]
+  },
+  {
+    "name": "Basic Market Structure",
+    "url": "https://drive.google.com/uc?export=download&id=1fkZCiGRJPIqJNz8pUchV7n8iQ8ziNkGl",
+    "description": "Foundational market structure concepts: swing highs/lows, break of structure, and change of character for trend identification.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["basic", "market structure", "swing high", "swing low", "BOS", "CHoCH"]
+  },
+  {
+    "name": "Basic SMC",
+    "url": "https://drive.google.com/uc?export=download&id=1FLycwrxABjC2-qC_VwrzgM6walxIIIze",
+    "description": "Introduction to Smart Money Concepts: order blocks, fair value gaps, and liquidity concepts for retail traders.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["SMC", "smart money", "order block", "FVG", "liquidity", "retail"]
+  },
+  {
+    "name": "Basic SND",
+    "url": "https://drive.google.com/uc?export=download&id=1bjU-J5UlCoNT3TBRwrrvkeP8FjwmkhJK",
+    "description": "Fundamentals of Support and Demand zones: identification, validation, and trading reactions at key price levels.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["SND", "support", "demand", "zones", "price levels", "reaction"]
+  },
+  {
+    "name": "Bias Plan Execution",
+    "url": "https://drive.google.com/uc?export=download&id=1LL2L0XgrZmHr9-INHu0mBRumUDxt1xBg",
+    "description": "Trading methodology for establishing directional bias, creating trade plans, and disciplined execution across sessions.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["bias", "plan", "execution", "discipline", "sessions", "methodology"]
+  },
+  {
+    "name": "Breaker Blocks And Mitigation Blocks",
+    "url": "https://drive.google.com/uc?export=download&id=1KDB7cb-6urfWgciYun8aPDMiRepFW_dS",
+    "description": "Breaker blocks as liquidity sweeps and mitigation blocks as reversal zones: identification and trading applications.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["breaker block", "mitigation", "liquidity sweep", "reversal", "zone", "identification"]
+  },
+  {
+    "name": "Candle Range Theory",
+    "url": "https://drive.google.com/uc?export=download&id=1nHCKFq1uAVOVEk6Ef64hDt4UvtgOfeYh",
+    "description": "Analysis of candle range dynamics, wick rejection significance, and range expansion/contraction for volatility assessment.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["candle", "range", "wick", "rejection", "volatility", "expansion"]
+  },
+  {
+    "name": "CBDR Asian Range And Target Projections",
+    "url": "https://drive.google.com/uc?export=download&id=1HXXuAJkRnbxgKSTzNDyJzqFg2bFGwDU6",
+    "description": "Consolidation Breakout Daily Range (CBDR) methodology for Asian session range analysis and London/NY target projections.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["CBDR", "Asian range", "session", "projection", "London open", "NY open"]
+  },
+  {
+    "name": "CRT & TIME",
+    "url": "https://drive.google.com/uc?export=download&id=1prRUKsaAWHqMTaWjCRPx_BvsoSJd2g3w",
+    "description": "Cumulative Range Theory combined with optimal trading times: London open, NY open, and kill zone execution windows.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["CRT", "time", "kill zone", "London open", "NY open", "session"]
+  },
+  {
+    "name": "Dealing Range",
+    "url": "https://drive.google.com/uc?export=download&id=1ZUkidt2rSpxeR7gNFzH-yKsI_-5T6xYz",
+    "description": "Dealing range concepts: equilibrium zones where institutions accumulate/distribute before explosive moves.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["dealing range", "equilibrium", "accumulation", "distribution", "institutional", "zone"]
+  },
+  {
+    "name": "Defining The Weekly Range Profiles",
+    "url": "https://drive.google.com/uc?export=download&id=1mwDoSBgb2_RPS4MZuw24skuFdREypTRJ",
+    "description": "Weekly range profile analysis: value areas, point of control, and high-volume nodes for institutional bias detection.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["weekly", "range profile", "value area", "POC", "volume profile", "institutional"]
+  },
+  {
+    "name": "DOL SMR",
+    "url": "https://drive.google.com/uc?export=download&id=1ssntCfc3X8FQ370kQPqcBPYhDEklKoLi",
+    "description": "Dollar Smile Response model: USD strength/weakness patterns during risk-on vs risk-off market regimes.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["DOL", "SMR", "dollar", "risk on", "risk off", "USD strength"]
+  },
+  {
+    "name": "Draw On Liquidity",
+    "url": "https://drive.google.com/uc?export=download&id=1T7_LSDCd5bnWsNwRNAntdXlirElExjh8",
+    "description": "Liquidity sweep mechanics: how market makers hunt stops above/below key levels before reversing price direction.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["liquidity", "sweep", "stop hunt", "market maker", "reversal", "mechanics"]
+  },
+  {
+    "name": "ICT",
+    "url": "https://drive.google.com/uc?export=download&id=1JB_8f2tmDUgXa0s_lehqz9-sg_iDPWHL",
+    "description": "Core Inner Circle Trader methodology: market structure shifts, liquidity concepts, and institutional order flow principles.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["ICT", "Inner Circle Trader", "methodology", "institutional", "order flow", "liquidity"]
+  },
+  {
+    "name": "ICT Advanced Market Structure",
+    "url": "https://drive.google.com/uc?export=download&id=1IBsqYPPQbI5nuQB5yitCCle25nGK8eqe",
+    "description": "Advanced ICT structural concepts: displacement, mitigation blocks, and fractal market structure across multiple timeframes.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["ICT", "advanced", "displacement", "mitigation", "fractal", "timeframe"]
+  },
+  {
+    "name": "PO3 Fractal Study",
+    "url": "https://drive.google.com/uc?export=download&id=19OcMSiu4n2E6LKcqymmsj18ZIhIJTSHh",
+    "description": "Point of Interest (PO3) fractal analysis: identifying repeating structural patterns across daily, 4H, and 1H timeframes.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["PO3", "fractal", "point of interest", "pattern", "timeframe", "repetition"]
+  },
+  {
+    "name": "Order blocks Propulsion Blocks",
+    "url": "https://drive.google.com/uc?export=download&id=1gDyVZ5FrYHrLOwvp--pEI0aSe5lyatuW",
+    "description": "Propulsion blocks: aggressive order blocks causing strong directional moves with minimal retracement after formation.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["order block", "propulsion", "aggressive", "directional", "retracement", "momentum"]
+  },
+  {
+    "name": "Order Block",
+    "url": "https://drive.google.com/uc?export=download&id=1dQeJ0y-tbAavu94QEB8evPtS1tAKucHl",
+    "description": "Order block identification: last bullish/bearish candle before consolidation representing institutional entry zones.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["order block", "institutional", "entry zone", "consolidation", "bullish", "bearish"]
+  },
+  {
+    "name": "MMXM Model",
+    "url": "https://drive.google.com/uc?export=download&id=1T4zN7HlA57iLd-YvX5Q9knar5hfDyArT",
+    "description": "Market Maker Execution Model: understanding how liquidity providers engineer price moves to trigger retail stops.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["MMXM", "market maker", "execution", "liquidity provider", "stop hunt", "engineering"]
+  },
+  {
+    "name": "Market Structure",
+    "url": "https://drive.google.com/uc?export=download&id=1oxSbre9vv49V2WUnHoUnWCtFc7eoYNbS",
+    "description": "Market structure fundamentals: higher highs/lows in uptrends, lower highs/lows in downtrends, and structural breaks.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["market structure", "higher high", "higher low", "lower high", "lower low", "trend"]
+  },
+  {
+    "name": "Market Maker Model",
+    "url": "https://drive.google.com/uc?export=download&id=1V3qJLYveDJqNO2SDGeAWZZFz2YZCvMJx",
+    "description": "How market makers operate: liquidity provision, stop hunting mechanics, and creating false breakouts before reversals.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["market maker", "liquidity", "stop hunt", "false breakout", "reversal", "mechanics"]
+  },
+  {
+    "name": "Liquidity Void And Fair Value Gap",
+    "url": "https://drive.google.com/uc?export=download&id=17O8ltHpNe9XqpII0JeUSQsAi_XIsEgE3",
+    "description": "Liquidity voids as untraded price zones and Fair Value Gaps (FVG) as imbalance areas for high-probability entries.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["liquidity void", "FVG", "fair value gap", "imbalance", "untraded", "entry"]
+  },
+  {
+    "name": "Liquidity and Manipulation",
+    "url": "https://drive.google.com/uc?export=download&id=1OUHpG5QAJ4wPskfy7ACkP0b8rlC7ZN4U",
+    "description": "How liquidity pools are manipulated: stop hunts above/below key levels to trigger cascading orders before reversals.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["liquidity", "manipulation", "stop hunt", "pool", "cascading", "reversal"]
+  },
+  {
+    "name": "IRL TO ERL",
+    "url": "https://drive.google.com/uc?export=download&id=18FtZxKXnCwNnKD0uzUgSwNtmuXHjGNZo",
+    "description": "Institutional Risk Liquidity (IRL) to Excess Risk Liquidity (ERL): mapping institutional risk zones across sessions.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["IRL", "ERL", "institutional", "risk liquidity", "sessions", "mapping"]
+  },
+  {
+    "name": "IRL ERL",
+    "url": "https://drive.google.com/uc?export=download&id=1DHa8MS-IMD9SRW7_w5ttVrZgiXyJApPI",
+    "description": "IRL/ERL framework: identifying where institutions place risk (IRL) versus where they take profit (ERL) in price cycles.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["IRL", "ERL", "institutional", "risk", "profit", "price cycle"]
+  },
+  {
+    "name": "IPDA",
+    "url": "https://drive.google.com/uc?export=download&id=18ZozUCgeUdlcN7oAcDvRRiPFtBBCcJWA",
+    "description": "Institutional Price Delivery Algorithm: understanding how institutions engineer price delivery to target liquidity pools.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["IPDA", "institutional", "algorithm", "price delivery", "liquidity", "engineering"]
+  },
+  {
+    "name": "ICT Silver Bullet Model",
+    "url": "https://drive.google.com/uc?export=download&id=1wD4tsbUUBzz6Ba0tn9m6zF8UOF7Vf-_H",
+    "description": "ICT's Silver Bullet: confluence of order block, FVG, and liquidity sweep for high-probability reversal entries.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["silver bullet", "ICT", "confluence", "order block", "FVG", "reversal"]
+  },
+  {
+    "name": "ICT IFVG",
+    "url": "https://drive.google.com/uc?export=download&id=1uacRfNMCTf6-o_xWII84vAvXJ79o1Bug",
+    "description": "Inverse Fair Value Gap (IFVG): bearish/bullish imbalances forming after strong momentum candles for continuation entries.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["IFVG", "inverse FVG", "imbalance", "momentum", "continuation", "entry"]
+  },
+  {
+    "name": "ICT Block",
+    "url": "https://drive.google.com/uc?export=download&id=1ygL7A-X5VDUVQHRB_34h-VkKtdt8Yskv",
+    "description": "ICT block concepts: order blocks, breaker blocks, and mitigation blocks as institutional footprint zones on charts.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["ICT block", "order block", "breaker", "mitigation", "institutional", "footprint"]
+  },
+  {
+    "name": "Understanding Liquidity",
+    "url": "https://drive.google.com/uc?export=download&id=1-V5zqjuy6vaiir36Getfac0WqfAa-pBE",
+    "description": "Liquidity concepts: equal highs/lows as stop clusters, liquidity voids, and how price moves to hunt retail stops.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["liquidity", "equal high", "equal low", "stop cluster", "void", "hunt"]
+  },
+  {
+    "name": "The Weekly Profile Guide",
+    "url": "https://drive.google.com/uc?export=download&id=1rnts2qBjEufPBaerM7sHkfyVyFSlcZhm",
+    "description": "Weekly market profile construction: identifying value areas, single prints, and institutional acceptance/rejection zones.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["weekly", "profile", "value area", "single print", "institutional", "acceptance"]
+  },
+  {
+    "name": "The Market Profiling Guide",
+    "url": "https://drive.google.com/uc?export=download&id=1sOvJllYKM-DQrshV78XKp_FUPMVsYEWd",
+    "description": "Market profile fundamentals: TPOs, value areas, and point of control for understanding auction market theory.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["market profile", "TPO", "value area", "POC", "auction", "theory"]
+  },
+  {
+    "name": "The Market Maker Matrix",
+    "url": "https://drive.google.com/uc?export=download&id=1pCO0n7JANmuylo1rMQAU1dLU-NWrWE2r",
+    "description": "Matrix framework for anticipating market maker moves: liquidity grabs, reversals, and session-based manipulation patterns.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://m.media-amazon.com/images/I/71HXzCxVyHL.jpg",
+    "tags": ["market maker", "matrix", "anticipation", "liquidity grab", "session", "manipulation"]
+  },
+  {
+    "name": "STDV",
+    "url": "https://drive.google.com/uc?export=download&id=1H2jjR9JnEDot_d3U2AaFBE9_0t1385rC",
+    "description": "Standard Deviation (STDV) zones: volatility-based support/resistance levels derived from statistical price distribution.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["STDV", "standard deviation", "volatility", "support", "resistance", "statistical"]
+  },
+  {
+    "name": "Stacked PD Array",
+    "url": "https://drive.google.com/uc?export=download&id=1hZvAumEY51LOgqdSqBy-km3FH7WaN-t0",
+    "description": "Stacked Premium/Discount arrays: multiple PD zones aligning across timeframes for high-confidence reversal areas.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["stacked", "PD array", "premium discount", "timeframe", "reversal", "confluence"]
+  },
+  {
+    "name": "SMT Divergence",
+    "url": "https://drive.google.com/uc?export=download&id=1ZgwLKWIfUPUforbYyHh_uhu3cNBhm34m",
+    "description": "Smart Money Technique (SMT) divergence: hidden/regular divergence between price and momentum for early reversal signals.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["SMT", "divergence", "hidden", "regular", "momentum", "reversal"]
+  },
+  {
+    "name": "Rejection Block SMT",
+    "url": "https://drive.google.com/uc?export=download&id=1vQzkICpdOkptzCTmLytOaQIzL68zDdTS",
+    "description": "Rejection blocks in SMT: strong wick rejections at key levels indicating institutional order absorption zones.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["rejection block", "SMT", "wick", "institutional", "absorption", "zone"]
+  },
+  {
+    "name": "Quarterly Theory Daye Simplified",
+    "url": "https://drive.google.com/uc?export=download&id=1py58xEy9XAPMq2K0qDpLQHgepLfJ3QcA",
+    "description": "Simplified quarterly theory: how quarterly opens create structural bias and liquidity pools for the next 3 months.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://pbs.twimg.com/media/GD6dAtLXQAA2itK.jpg",
+    "tags": ["quarterly", "theory", "open", "structural bias", "liquidity", "3-month"]
+  },
+  {
+    "name": "Quarterly Theory",
+    "url": "https://drive.google.com/uc?export=download&id=101fOqdJZJc4BvZS3VnOQVkuYt7mnfrMc",
+    "description": "Quarterly theory deep dive: institutional positioning at quarterly opens and how it shapes price action for months.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://pbs.twimg.com/media/GD6dAtLXQAA2itK.jpg",
+    "tags": ["quarterly", "theory", "institutional", "positioning", "open", "price action"]
+  },
+  {
+    "name": "Price Action",
+    "url": "https://drive.google.com/uc?export=download&id=1tvkufe771YE4XpnDorOFFyLNUDHgjfVT",
+    "description": "Pure price action trading: reading candlestick patterns, momentum shifts, and market sentiment without indicators.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/Y4LDLj45yGSzolpl/58e86843f1e91243f61389067f25d41d-AMq1qBDqDji6v1r8.jpg",
+    "tags": ["price action", "candlestick", "momentum", "sentiment", "pattern", "indicator-free"]
+  },
+  {
+    "name": "Premium Discount Dealing Range PD Array Matrix",
+    "url": "https://drive.google.com/uc?export=download&id=1Qhkxzrn9RppVchqxdnmZlpJ9yFJmRSOA",
+    "description": "PD Array Matrix: mapping premium/discount zones against dealing ranges to identify institutional accumulation areas.",
+    "mainCategory": ["LIBRARY"],
+    "subCategory": ["PDF"],
+    "imageUrl": "https://i.ytimg.com/vi/uC5SZ-f6ea0/sddefault.jpg",
+    "tags": ["PD array", "premium discount", "dealing range", "matrix", "accumulation", "institutional"]
+  },
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Inner Circle Community",
+      "url": "https://discord.gg/faXyh2pKQD",
+      "description": "A collaborative trading community. Focus on learning CRYPTO, Forex, & Indices together. Share knowledge and strategies to grow alongside fellow traders.",
+      "mainCategory": ["CRYPTO", "COMMUNITY"],
+      "subCategory": ["COMMUNITY"],
+      "imageUrl": "https://cdn.discordapp.com/app-icons/1338134316072439809/9eb9c065f3aecf8cd23390c1af112cf9.png?size=512&quot",
+      "tags": ["CRYPTO", "Forex", "Indices", "Dexes"]
+    }
+  ]
+}

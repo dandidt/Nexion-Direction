@@ -1,0 +1,75 @@
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pag-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid var(--bg-55);
+  color: var(--gray);
+  padding: 0.5rem 1rem;
+  font-size: var(--s10);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.1em;
+}
+
+.pag-btn:hover:not(:disabled) {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.pag-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.pag-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pag-num {
+  background: var(--bg-20);
+  border-radius: 8px;
+  border: 1px solid var(--bg-55);
+  color: var(--gray);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--s12);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pag-num.active {
+  background: var(--green);
+  color: var(--bg-15);
+  border-color: var(--green-light);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
+}
+
+.pag-num:hover:not(.active) {
+  border-color: var(--bg-55);
+  color: var(--white);
+}
+
+.pag-dots {
+  color: var(--gray);
+  padding: 0 6px;
+  font-size: var(--s12);
+  display: flex;
+  align-items: center;
+  user-select: none;
+}

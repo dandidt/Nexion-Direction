@@ -1,0 +1,124 @@
+.wrapper-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #1f2937;
+}
+
+.wrapper-folder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow-x: auto;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.button-folder {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  font-family: 'TASA Explorer', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.button-folder.active {
+  border-color: #10b981;
+  color: #34d399;
+}
+
+.button-folder.no-active {
+  border-color: transparent;
+  color: #64748b;
+}
+
+.button-folder.no-active:hover {
+  color: #cbd5e1;
+}
+
+.folder-icon {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+  transition: color 0.2s;
+}
+
+.button-folder.active .folder-icon {
+  color: #10b981;
+}
+
+.button-folder.no-active .folder-icon {
+  color: #475569;
+}
+
+/* Sub Folder */
+.wrapper-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wrapper-box-btn {
+  display: flex;
+}
+
+.sub-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: var(--s10);
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  border: 1px solid;
+  cursor: pointer;
+  outline: none;
+}
+
+.sub-button span {
+  margin-top: 2px;
+}
+
+.sub-button.no-active {
+  background: #111827;
+  border-color: #374151;
+  color: #94a3b8;
+}
+
+.sub-button.no-active:hover {
+  background: #1f2937;
+  border-color: #4b5563;
+  color: #f1f5f9;
+}
+
+.sub-button.active {
+  background: var(--bg-green);
+  color: var(--green-dark);
+  border-color: var(--green-dark);
+}
+
+.sub-button svg {
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
+.wrapper-folder::-webkit-scrollbar,
+.wrapper-category::-webkit-scrollbar {
+  display: none;
+}
