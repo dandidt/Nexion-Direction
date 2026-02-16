@@ -69,7 +69,7 @@ const App: React.FC = () => {
       <header className="navbar">
         <div className="wrapper-logo">
           <img
-            src="../public/Nexion White.png"
+            src="/Nexion White.png"
             className="icon-navbar"
             alt="logo"
           />
