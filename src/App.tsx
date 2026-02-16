@@ -69,11 +69,11 @@ const App: React.FC = () => {
       <header className="navbar">
         <div className="wrapper-logo">
           <img
-            src="https://raw.githubusercontent.com/dandidt/Nexion-Trades-Full/main/favicon.ico"
+            src="../public/Nexion White.png"
             className="icon-navbar"
             alt="logo"
           />
-          <span className="title-logo font-tasa">NEXION <span className='subtitle-navbar'>DIRECTORY</span></span>
+          <span className="title-logo">Nexion <span className='subtitle-navbar'>Directory</span></span>
         </div>
 
         <input

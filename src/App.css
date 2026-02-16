@@ -27,14 +27,14 @@
 }
 
 .icon-navbar {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 }
 
 .title-logo {
-  text-transform: uppercase;
+  font-family: 'Nexion';
   font-size: var(--s18);
-  font-weight: var(--w8);
+  font-weight: var(--w5);
 }
 
 .input-text {
