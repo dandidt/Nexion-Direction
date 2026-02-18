@@ -94,7 +94,7 @@ const App: React.FC = () => {
             </h2>
           </div>
 
-          <h1 className="title font-tasa">
+          <h1 className="title">
             Intelligence <span className="subtitle">Terminal</span>
           </h1>
 
@@ -161,7 +161,7 @@ const App: React.FC = () => {
         </div>
 
         <span className="text-footer">
-          © 2026 NEXION TRADES. For educational purposes only.
+          © 2026 Nexon Directory. For Educational Purposes Only.
         </span>
       </footer>
     </div>

@@ -8,7 +8,6 @@ interface SiteCardProps {
 
 const SiteCard: React.FC<SiteCardProps> = ({ site }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
-  // Mulai dari 0 untuk mencegah kontainer melebar maksimal lalu menyusut
   const [visibleCount, setVisibleCount] = React.useState(0);
   const [isCalculating, setIsCalculating] = React.useState(true);
     
@@ -20,9 +19,8 @@ const SiteCard: React.FC<SiteCardProps> = ({ site }) => {
     let usedWidth = 0;
     let count = 0;
     const GAP = 6;
-    const PLUS_TAG_WIDTH = 45; // Estimasi lebar badge "+N"
+    const PLUS_TAG_WIDTH = 45; 
 
-    // Buat elemen temporer untuk mengukur lebar tag asli secara akurat
     const temp = document.createElement('div');
     Object.assign(temp.style, {
       position: 'absolute',
@@ -43,7 +41,6 @@ const SiteCard: React.FC<SiteCardProps> = ({ site }) => {
       const tagWidth = el.offsetWidth;
       const isLast = i === site.tags.length - 1;
       
-      // Jika bukan tag terakhir, kita harus sisakan ruang untuk badge "+N"
       const neededWidth = isLast 
         ? usedWidth + tagWidth 
         : usedWidth + tagWidth + GAP + PLUS_TAG_WIDTH;
@@ -103,7 +100,7 @@ const SiteCard: React.FC<SiteCardProps> = ({ site }) => {
 
           {hiddenTags.length > 0 && (
             <div className="tooltip-wrapper">
-              <span className="tag-badge">+{hiddenTags.length}</span>
+              <span className="tag-badge-tooltip">+{hiddenTags.length}</span>
               <div className="tooltip-content">
                 <div className="tooltip-header">Extra Metadata Tags</div>
                 {hiddenTags.map((tag, i) => (

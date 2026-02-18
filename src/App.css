@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 20px;
+  padding: 12px 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,7 +33,7 @@
 
 .title-logo {
   font-family: 'Nexion';
-  font-size: var(--s18);
+  font-size: var(--s20);
   font-weight: var(--w5);
 }
 
@@ -97,6 +97,7 @@
 }
 
 .title {
+  font-family: 'Nexion';
   font-size: var(--s38);
   font-weight: var(--w8);
   color: var(--white);
@@ -154,10 +155,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(15, 17, 23, 0.65);
-  backdrop-filter: blur(10px);
+  background: var(--bg-20);
   border-top: 1px solid var(--bg-30);
-  padding: 8px 20px;
+  padding: 10px 20px;
   margin-top: 20px;
 }
 .wrapper-footer-socials {

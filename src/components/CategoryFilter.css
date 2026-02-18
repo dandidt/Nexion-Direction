@@ -5,9 +5,9 @@
 }
 
 .line {
-    height: 1px;
-    width: 100%;
-    background: #1f2937;
+  height: 1px;
+  width: 100%;
+  background: var(--bg-45);
 }
 
 .wrapper-folder {
@@ -36,17 +36,21 @@
 }
 
 .button-folder.active {
-  border-color: #10b981;
-  color: #34d399;
+  border-color: var(--green);
+  color: var(--green-light);
 }
 
 .button-folder.no-active {
   border-color: transparent;
-  color: #64748b;
+  color: var(--gray-dark);
+}
+
+.button-folder.no-active:hover svg {
+  fill: var(--gray);
 }
 
 .button-folder.no-active:hover {
-  color: #cbd5e1;
+  color: var(--gray);
 }
 
 .folder-icon {
@@ -57,11 +61,11 @@
 }
 
 .button-folder.active .folder-icon {
-  color: #10b981;
+  color: var(--green);
 }
 
 .button-folder.no-active .folder-icon {
-  color: #475569;
+  color: var(--gray-dark);
 }
 
 /* Sub Folder */
@@ -96,15 +100,15 @@
 }
 
 .sub-button.no-active {
-  background: #111827;
-  border-color: #374151;
-  color: #94a3b8;
+  background: var(--bg-30);
+  border-color: var(--bg-60);
+  color: var(--gray);
 }
 
 .sub-button.no-active:hover {
-  background: #1f2937;
-  border-color: #4b5563;
-  color: #f1f5f9;
+  background: var(--bg-45);
+  border-color: var(--bg-80);
+  color: var(--gray-light);
 }
 
 .sub-button.active {
