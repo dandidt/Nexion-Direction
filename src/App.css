@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(15, 17, 23, 0.65);
+  background: rgba(15, 15, 15, 0.65);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--bg-35);
   z-index: 10;
@@ -37,24 +37,25 @@
   font-weight: var(--w5);
 }
 
-.input-text {
+input[type="text"] {
   background: var(--bg-30);
   border: 1px solid var(--bg-45);
-  border-radius: 6px;
-  padding: 8px 10px;
-  font-size: var(--s10);
-  color: var(--white);
+  border-radius: 8px;
+  padding: 7px 18px;
   width: 280px;
-  text-transform: uppercase;
+  font-size: var(--s14);
+  color: var(--white);
   outline: none;
+  transition: all 0.3s ease;
 }
 
-.input-text:focus {
-  border-color: var(--gray);
+input[type="text"]:focus {
+  border-color: var(--bg-70);
+  background: var(--bg-40);
 }
 
-.input-text::placeholder {
-  color: #374151;
+input[type="text"]::placeholder {
+  color: var(--bg-70);
 }
 
 @media (max-width: 768px) {
