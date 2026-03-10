@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 12px 60px;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@
 .wrapper-logo {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
 }
 
 .icon-navbar {
@@ -32,7 +32,7 @@
 }
 
 .title-logo {
-  font-family: 'Nexion';
+  font-family: "Nexion";
   font-size: var(--s20);
   font-weight: var(--w5);
 }
@@ -72,11 +72,11 @@ input[type="text"]::placeholder {
 .main {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 75px 20px 0;
+  padding: 75px 40px 0;
 }
 
 .main-top {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .wrapper-text {
@@ -98,16 +98,17 @@ input[type="text"]::placeholder {
 }
 
 .title {
-  font-family: 'Nexion';
+  font-family: "Nexion";
   font-size: var(--s38);
   font-weight: var(--w8);
   color: var(--white);
   letter-spacing: -1px;
   text-transform: uppercase;
+  margin: 10px 0;
 }
 
 .subtitle {
-    color: var(--bg-60);
+  color: var(--bg-60);
 }
 
 .wrapper-content {
@@ -158,7 +159,7 @@ input[type="text"]::placeholder {
   justify-content: space-between;
   background: var(--bg-20);
   border-top: 1px solid var(--bg-30);
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin-top: 20px;
 }
 .wrapper-footer-socials {
@@ -174,7 +175,7 @@ input[type="text"]::placeholder {
   text-decoration: none;
   font-size: 0.85rem;
   transition: all 0.2s ease;
-  font-family: 'Tasa Explorer', sans-serif;
+  font-family: "Tasa Explorer", sans-serif;
 }
 
 .footer-social-link svg {
@@ -183,17 +184,18 @@ input[type="text"]::placeholder {
 }
 
 .footer-social-link:hover {
-  color: var(--gray-light);
+  color: var(--green);
+  text-decoration: underline;
 }
 
 .footer-social-link:hover .icon-footer {
   opacity: 1;
-  stroke: var(--gray-light);
+  stroke: var(--green);
 }
 
 .footer-social-link:hover .discord-icon {
   opacity: 1;
-  fill: var(--gray-light);
+  fill: var(--green);
 }
 
 @media (max-width: 768px) {
